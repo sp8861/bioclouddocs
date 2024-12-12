@@ -1,0 +1,35 @@
+
+.md-header {
+    background-color: #29B6F6 !important;
+}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    fill: currentcolor;
+    display: block;
+    height: 1.5rem;
+    width: auto;
+}
+/* Remove any constraints on page width */
+.md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  /* Optionally, remove margins and paddings around the content */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Make sure the container spans the full width */
+  .md-main {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+
+  
+  

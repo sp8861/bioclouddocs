@@ -1,0 +1,55 @@
+site_name: ''
+nav:
+  - Biocloud APIS Document:
+      - Home: index.md
+      - How API Signatures Work: signature.md
+      - Face API requests: face.md
+      - Palm API requests: palm.md
+  - Biocloud App: https://biocloud.minervaiot.com/
+
+theme:
+  name: material
+  logo: assets/images/logo.svg
+  palette:
+    primary: indigo
+    accent: pink
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    # - search.highlight
+    # - search.share
+    - search.suggest
+    # - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+# Additional configuration for header navigation
+# extra:
+#   header:
+#     - type: link
+#       text: "Biocloud APIS Document"
+#       link: "/"
+#     - type: link
+#       text: "Biocloud App"
+#       link: "https://biocloud.minervaiot.com/"
+  
+extra_css:
+  - assets/images/css/extra.css
+
+
