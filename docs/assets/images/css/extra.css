@@ -28,6 +28,16 @@
     padding: 0;
   }
 
+  div.ethical-sidebar, div.ethical-footer {
+    display: none;
+}
+
+.container.bottom-right {
+  right: 20px;
+  bottom: 50px;
+  display: none;
+}
+
 
   
 
