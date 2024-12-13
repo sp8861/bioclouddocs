@@ -1,11 +1,11 @@
 site_name: ''
 nav:
   - Biocloud APIS Document:
-      - Home: index.md
+      - Introduction: index.md
       - How API Signatures Work: signature.md
       - Face API requests: face.md
       - Palm API requests: palm.md
-  - Biocloud App: https://biocloud.minervaiot.com/
+  - Biocloud Application: https://biocloud.minervaiot.com/
 
 theme:
   name: material
