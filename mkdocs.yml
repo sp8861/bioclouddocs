@@ -10,6 +10,7 @@ nav:
 theme:
   name: material
   logo: assets/images/logo.svg
+  favicon: assets/images/google-docs.png
   palette:
     primary: indigo
     accent: pink
